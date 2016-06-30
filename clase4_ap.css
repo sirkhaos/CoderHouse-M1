@@ -1,0 +1,31 @@
+body{
+	background-color: black;
+	color:white;
+}
+h1{
+margin: 10% 20% 30% 40%;
+border-style: 1px solid white;
+padding: 40px 30px 20px 10px;
+height: 400px auto;
+width: 600px auto;
+overflow: scroll;
+font-size: 15em;
+
+
+}
+li{
+	display: inline-block; 
+	
+	/* display: none; /* no ocupa espacio y no se carga en la pagina*/
+	/* visibility: hidden; /* ocupa espasio y se carga de todas formas*/
+	
+	position: static; /* no asepta modificador como top, bottom, left, right */
+	position: relative; /* respecto a la pocicion orijinal de la caja */
+	position: absolute; /* cordenadas respecto del padre */
+	position: fixed; /* con respecto al viewpor(render) */
+	top: 15px;
+	z-index: 1; /* mientras mas cerca del usuario el numero es mas grande */
+
+
+}
+
